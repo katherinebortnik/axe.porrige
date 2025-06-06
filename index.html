@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axe Porridge - Главная</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section id="full-main">
+            <img class="background-image shared-bg"
+                src="https://i.pinimg.com/736x/04/f0/c3/04f0c38ffcf4b6fb5ec45ebcb05ab67f.jpg"
+                alt="Общий фон">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <header class="new-header">
+                        <div class="new-container">
+                            <nav class="new-nav">
+                                <ul class="new-menu">
+                                <li><a href="index.html" class="new-menu-item">О НАС</a></li>
+                                <li><a href="events.html" class="new-menu-item">СОБЫТИЯ</a></li>
+                                <li><a href="menu.html" class="new-menu-item">МЕНЮ</a></li>
+                                </ul>
+                            </nav>
+                            <div class="new-logo-container">
+                                <img src="https://i.pinimg.com/736x/9a/b7/94/9ab7944e13315d7e3f1aaf2563ffdc11.jpg" alt="Логотип 1">
+                                <img src="https://i.pinimg.com/736x/51/f9/2d/51f92db6963a2f6814e33e8d11df45dc.jpg" alt="Логотип 2">
+                            </div>
+                        </div>
+                    </header>
+
+                    <div class="container">
+                        <section id="hero">
+                            <div class="container">
+                                <h1>AXE PORRIGE</h1>
+                                <button id="book-button">ЗАБРОНИРОВАТЬ</button>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <section id="about">
+                <div class="container">
+                    <div class="about-content">
+                        <h2>О НАС</h2>
+                        <p>Уютная и атмосферная кофейня, где каждый гость найдет себе занятие по душе. Мы предлагаем не только ароматный кофе и вкуснейшие десерты, но и возможность отдохнуть за партией бильярда или поучаствовать в увлекательных мероприятиях, организуемых нами регулярно.</p>
+                    </div>
+                    <div class="info-buttons">
+                        <button class="info-button" data-url="https://yandex.ru/maps/2/saint-petersburg/house/gorokhovaya_ulitsa_18/Z0kYdQZmQEcPQFtjfXVyc31mZw==/?ll=30.316928%2C59.932153&z=16">ул. Гороховая, д. 18</button>
+                        <button class="info-button" data-url="https://t.me/axeporridge">AXEPORRIGE.ПОДПИСАТЬСЯ</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <p>AXE PORRIGE</p>
+                </div>
+                <div class="footer-column">
+                    <p>8(812)346-56-56 <br>Контактный центр</p>
+                    <p>8(812)987-32-18 <br>Отдел заботы о пользователях</p>
+                    <p>г. Санкт-Петербург, <br>ул. Ломоносова, д.43</p>
+                </div>
+                <div class="footer-column">
+                    <p>Instagram: axeporrige</p>
+                    <p>Telegram: @axeporrige</p>
+                    <p>ВКонтакте: axeporrige_vk</p>
+                    <p>Email: axeporrige@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>с 2025 Кофейня-коворкинг AXE PORRIGE. Все права защищены.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="popup-container" id="popupContainer">
+        <div class="popup">
+            <span class="close-button" id="closeBookingPopup">×</span>
+            <input type="text" id="name" placeholder="Имя">
+            <input type="tel" id="phone" placeholder="Телефон/email">
+            <button id="send-request">ЗАБРОНИРОВАТЬ</button>
+            <p class="popup-footer">Менеджер свяжется с вами в течение 10 минут</p>
+        </div>
+    </div>
+        <!-- МАСКА -->
+    <div id="maskContainer">
+        <canvas id="maskCanvas"></canvas>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axe Porridge - Меню</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="new-header">
+            <div class="new-container">
+                <nav class="new-nav">
+                    <ul class="new-menu">
+                        <li><a href="index.html" class="new-menu-item">О НАС</a></li>
+                        <li><a href="events.html" class="new-menu-item">СОБЫТИЯ</a></li>
+                        <li><a href="menu.html" class="new-menu-item">МЕНЮ</a></li>
+                    </ul>
+                </nav>
+                <div class="new-logo-container">
+                    <img src="https://i.pinimg.com/736x/9a/b7/94/9ab7944e13315d7e3f1aaf2563ffdc11.jpg" alt="Логотип 1">
+                    <img src="https://i.pinimg.com/736x/51/f9/2d/51f92db6963a2f6814e33e8d11df45dc.jpg" alt="Логотип 2">
+                </div>
+            </div>
+        </header>
+
+        <section id="seasonal-menu">
+            <h2>СЕЗОННОЕ МЕНЮ</h2>
+            <ul class="menu-items">
+                <li>Шейк с розой 200г/270р</li>
+                <li>Ландышевые клинки 180г/370р</li>
+                <li>Блины Меченосец 180г/330р</li>
+                <li>Вербовый айс бамбл 130г/250р</li>
+                <li>Лавандовый берлинер 130г/250р</li>
+            </ul>
+            <div class="images-seasonal">
+                <div class="image-wrapper">
+                    <img src="картинки/сезонное1.png" alt="Шейк с розой">
+                </div>
+                <div class="image-wrapper">
+                    <img src="картинки/сезонное2.png" alt="Ландышевые клинки">
+                </div>
+                <div class="image-wrapper">
+                    <img src="картинки/сезонное3.png" alt="Блины Меченосец">
+                </div>
+                <div class="image-wrapper">
+                    <img src="картинки/сезонное4.png" alt="Вербовый айс бамбл">
+                </div>
+                <div class="image-wrapper">
+                    <img src="картинки/сезонное5.png" alt="Лавандовый берлинер">
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <div class="menu-header">
+                    <h2>Меню</h2>
+                </div>
+
+                <div class="menu-navigation">
+                    <button class="menu-arrow menu-arrow-left" data-direction="left">
+                        <span class="arrow-icon"></span>
+                    </button>
+
+                    <nav class="menu-buttons">
+                        <ul>
+                            <li><button class="menu-button" data-target="deserts">КОНФЕТЫ</button></li>
+                            <li><button class="menu-button" data-target="breakfast">КАШИ</button></li>
+                            <li><button class="menu-button" data-target="snacks">БУТЕРБРОДЫ</button></li>
+                            <li>
+                                <div class="logo-container">
+                                    <img src="https://i.pinimg.com/736x/bf/57/73/bf5773d6b6913b100f40d57747d0afd7.jpg" alt="Логотип 1">
+                                    <img src="https://i.pinimg.com/736x/e1/4c/37/e14c374d44753d75309f4a6dde302122.jpg" alt="Логотип 2">
+                                </div>
+                            </li>
+                            <li><button class="menu-button" data-target="coffee">ФИЛЬТРЫ</button></li>
+                            <li><button class="menu-button" data-target="signature">АФФОГАТО</button></li>
+                            <li><button class="menu-button" data-target="non-coffee">МАТЧА</button></li>
+                        </ul>
+                    </nav>
+
+                    <button class="menu-arrow menu-arrow-right" data-direction="right">
+                        <span class="arrow-icon"></span>
+                    </button>
+                </div>
+
+                <div class="menu-tables-container">
+                    <table class="menu-table menu-dessert" id="deserts">
+                        <tr>
+                            <td>Ландышевые конфеты</td>
+                            <td>150г/250р</td>
+                        </tr>
+                        <tr>
+                            <td>Базиликовые конфеты</td>
+                            <td>150г/250р</td>
+                        </tr>
+                        <tr>
+                            <td>Помидорные конфеты</td>
+                            <td>150г/250р</td>
+                        </tr>
+                        <tr>
+                            <td>Свекольные конфеты</td>
+                            <td>150г/250р</td>
+                        </tr>
+                    </table>
+                    <table class="menu-table menu-breakfast" id="breakfast">
+                        <tr>
+                            <td>Каша из топора</td>
+                            <td>350г/300р</td>
+                        </tr>
+                        <tr>
+                            <td>Манная каша с фиником и солью</td>
+                            <td>350г/300р</td>
+                        </tr>
+                        <tr>
+                            <td>Каша с зефиром</td>
+                            <td>350г/300р</td>
+                        </tr>
+                        <tr>
+                            <td>Кукурузная постная каша</td>
+                            <td>350г/300р</td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table menu-snacks" id="snacks">
+                        <tr>
+                            <td>Бутерброд с хурмой</td>
+                            <td>300г/400р</td>
+                        </tr>
+                        <tr>
+                            <td>Бутерброд сюрстрёмминг</td>
+                            <td>150г/200р</td>
+                        </tr>
+                        <tr>
+                            <td>Бутерброд с фиником и солью</td>
+                            <td>220г/320р</td>
+                        </tr>
+                        <tr>
+                            <td>Бутерброд с кашей</td>
+                            <td>180г/280р</td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table menu-coffee" id="coffee">
+                        <tr>
+                            <td>Гранатовый фильтр</td>
+                            <td>400г/380р</td>
+                        </tr>
+                        <tr>
+                            <td>Грушевый фильтр</td>
+                            <td>400г/380р</td>
+                        </tr>
+                        <tr>
+                            <td>Сырный фильтр</td>
+                            <td>400г/380р</td>
+                        </tr>
+                        <tr>
+                            <td>Протеиновый фильтр</td>
+                            <td>400г/380р</td>
+                        </tr>
+                    </table>
+
+                    <table class="menu-table menu-signature" id="signature">
+                        <tr>
+                            <td>Аффогато карамель-арбуз</td>
+                            <td>200г/350р</td>
+                        </tr>
+                        <tr>
+                            <td>Аффогато-пиколини</td>
+                            <td>200г/350р</td>
+                        </tr>
+                        <tr>
+                            <td>Аффогато-бурундучино</td>
+                            <td>200г/350р</td>
+                        </tr>
+                        <tr>
+                            <td>Аффогато-страчателла</td>
+                            <td>280г/350р</td>
+                        </tr>
+                    </table>
+                    <table class="menu-table menu-non-coffee" id="non-coffee">
+                        <tr>
+                            <td>Мандариновая матча</td>
+                            <td>300г/360р</td>
+                        </tr>
+                        <tr>
+                            <td>Матча-цикорий</td>
+                            <td>300г/360р</td>
+                        </tr>
+                        <tr>
+                            <td>Протеиновая матча</td>
+                            <td>300г/360р</td>
+                        </tr>
+                        <tr>
+                            <td>Сонная матча</td>
+                            <td>300г/360р</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <p>AXE PORRIGE</p>
+                </div>
+                <div class="footer-column">
+                    <p>8(812)346-56-56 <br>Контактный центр</p>
+                    <p>8(812)987-32-18 <br>Отдел заботы о пользователях</p>
+                    <p>г. Санкт-Петербург, <br>ул. Ломоносова, д.43</p>
+                </div>
+                <div class="footer-column">
+                    <p>Instagram: axeporrige</p>
+                    <p>Telegram: @axeporrige</p>
+                    <p>ВКонтакте: axeporrige_vk</p>
+                    <p>Email: axeporrige@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>с 2025 Кофейня-коворкинг AXE PORRIGE. Все права защищены.</p>
+            </div>
+        </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>

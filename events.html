@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axe Porridge - События</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="new-header">
+            <div class="new-container">
+                <nav class="new-nav">
+                    <ul class="new-menu">
+                        <li><a href="index.html" class="new-menu-item">О НАС</a></li>
+                        <li><a href="events.html" class="new-menu-item">СОБЫТИЯ</a></li>
+                        <li><a href="menu.html" class="new-menu-item">МЕНЮ</a></li>
+                    </ul>
+                </nav>
+                <div class="new-logo-container">
+                <img src="https://i.pinimg.com/736x/9a/b7/94/9ab7944e13315d7e3f1aaf2563ffdc11.jpg" alt="Логотип 1">
+                    <img src="https://i.pinimg.com/736x/51/f9/2d/51f92db6963a2f6814e33e8d11df45dc.jpg" alt="Логотип 2">
+                </div>
+            </div>
+        </header>
+
+        <section id="billiard">
+            <div class="billiard-container">
+                <img src="https://i.pinimg.com/736x/97/d8/31/97d831a3720843a5e631426afb60ae3d.jpg" alt="Фон для бильярда" class="billiard-background">
+                <div class="billiard-content">
+                    <h1>БИЛЬЯРД</h1>
+                    <p class="billiard-description">— идеальное занятие для тех, кто хочет расслабиться и приятно провести время с друзьями или коллегами!</p>
+                    <p class="billiard-promo">Каждый вторник и четверг с 16:00 до 20:00<br>играйте в бильярд всего за половину стоимости. <br><br>При заказе любого напитка или десерта,<br>скидка 15% на аренду стола.</p>
+                </div>
+                <div class="billiard-price">
+                    <div class="billiard-price-container">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="circle circle-3"></div>
+                        <div class="circle circle-4"></div>
+                        <div class="circle circle-5"></div>
+                        <div class="circle circle-6"></div>
+                        <span class="price-text">900 Р/ЧАС<br><sub>скорей бей!</sub></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events">
+            <div class="container">
+                <div class="events-header">
+                    <h2>СОБЫТИЯ</h2>
+                    <div class="events-info">
+                        Новые мероприятия <br> каждый ПОНЕДЕЛЬНИК
+                        <a href="#">узнавать первым</a>
+                    </div>
+                </div>
+
+                <div class="events-carousel">
+                    <div class="event-card" data-event-target="event-popup-1">
+                        <div class="event-card-header">
+                            <div class="event-date">
+                                22.04 <br> 20:00
+                            </div>
+                            <div class="event-title">
+                                КИНОПОКАЗ <br> <span class="free">Бесплатно</span>
+                            </div>
+                        </div>
+                        <img src="https://i.pinimg.com/736x/8b/ac/ae/8bacae7be82281fdcef57f3a1e7ff4d7.jpg" alt="Кинопоказ">
+                        <div class="event-description">
+                            Необратимость <br> Гаспар Ноэ <br> Франция, 2002
+                        </div>
+                        <a href="#" class="event-more">подробнее</a>
+                    </div>
+
+                    <div class="event-card" data-event-target="event-popup-2">
+                        <div class="event-card-header">
+                            <div class="event-date">
+                                23.04 <br> 19:00
+                            </div>
+                            <div class="event-title">
+                                НАБРОСКИ <br> 200р
+                            </div>
+                        </div>
+                        <img src="https://i.pinimg.com/736x/93/34/fe/9334fead7a35bf871c6a96407a2be758.jpg" alt="Наброски">
+                        <div class="event-description">
+                            Castlecore <br> музыка:Boris Merzzbow <br> Xiu Xiu
+                        </div>
+                        <a href="#" class="event-more">подробнее</a>
+                    </div>
+
+                    <div class="event-card" data-event-target="event-popup-3">
+                        <div class="event-card-header">
+                            <div class="event-date">
+                                24.04 <br> 19:00
+                            </div>
+                            <div class="event-title">
+                                ДЕГУСТАЦИЯ <br> 1000р
+                            </div>
+                        </div>
+                        <img src="https://i.pinimg.com/736x/2a/3b/e4/2a3be4f246e069af88efafcfc2190182.jpg" alt="Дегустация">
+                        <div class="event-description">
+                            Винный ринг: <br> Сицилия VS Сардиния <br> молодые вина италии
+                        </div>
+                        <a href="#" class="event-more">подробнее</a>
+                    </div>
+
+                    <div class="event-card" data-event-target="event-popup-4">
+                        <div class="event-card-header">
+                            <div class="event-date">
+                                25.04 <br> 20:00
+                            </div>
+                            <div class="event-title">
+                                ДИДЖЕЙ-СЕТ <br> бесплатно
+                            </div>
+                        </div>
+                        <img src="https://i.pinimg.com/736x/e7/1d/3e/e71d3ee7b727dc18cd77b58438c93c99.jpg" alt="Диджей-сет">
+                        <div class="event-description">
+                            MC Palo4ka <br> DJ Temnaya noch <br> Emoji girl
+                        </div>
+                        <a href="#" class="event-more">подробнее</a>
+                    </div>
+
+                    <div class="event-card" data-event-target="event-popup-5">
+                        <div class="event-card-header">
+                            <div class="event-date">
+                                26.04 <br> 14:00
+                            </div>
+                            <div class="event-title">
+                                МАСТЕР-КЛАСС <br> 1000р
+                            </div>
+                        </div>
+                        <img src="https://i.pinimg.com/736x/fb/4e/5c/fb4e5c4a9d40eac64668f4d89fac820b.jpg" alt="Мастер-класс">
+                        <div class="event-description">
+                            Мастерим обвесы <br> на сумки <br> из керамики!
+                        </div>
+                        <a href="#" class="event-more">подробнее</a>
+                    </div>
+
+                    <div class="event-card" data-event-target="event-popup-6">
+                        <div class="event-card-header">
+                            <div class="event-date">
+                                27.04 <br> 19:00
+                            </div>
+                            <div class="event-title">
+                                ИНДИ КОНЦЕРТ <br> 600р
+                            </div>
+                        </div>
+                        <img src="https://i.pinimg.com/736x/ca/55/d4/ca55d464d29a503299345fb6bf4c389d.jpg" alt="Концерт">
+                        <div class="event-description">
+                            Нелюдимка: <br> бас, синтезатор, <br> сопротивление
+                        </div>
+                        <a href="#" class="event-more">подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="event-popup-1" class="event-popup">
+            <div class="popup-content">
+                <span class="popup-close" id="closeEventPopup1">×</span>
+
+                <div class="popup-image-container">
+                    <div class="image-gradient"></div>
+                    <img src="https://i.pinimg.com/736x/8b/ac/ae/8bacae7be82281fdcef57f3a1e7ff4d7.jpg" alt="Кинопоказ">
+                </div>
+
+                <div class="popup-info">
+                    <h2>КИНОПОКАЗ</h2>
+                    
+                    <input type="text" placeholder="Имя">
+                    <input type="tel" placeholder="Телефон">
+
+                    <div class="quantity-counter">
+                        <button class="quantity-minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-plus">+</button>
+                    </div>
+
+                    <button class="buy-button">Купить билет</button>
+
+                    <div class="event-details">
+                        <span>27.04</span>
+                        <span>20:00</span>
+                    </div>
+                    <p>Необратимость Гаспар Ноэ Франция, 2002</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="event-popup-2" class="event-popup">
+            <div class="popup-content">
+                <span class="popup-close" id="closeEventPopup2">×</span>
+
+                <div class="popup-image-container">
+                    <div class="image-gradient"></div>
+                    <img src="https://i.pinimg.com/736x/93/34/fe/9334fead7a35bf871c6a96407a2be758.jpg" alt="Наброски">
+                </div>
+
+                <div class="popup-info">
+                    <h2>НАБРОСКИ</h2>
+            
+                    <input type="text" placeholder="Имя">
+                    <input type="tel" placeholder="Телефон">
+
+                    <div class="quantity-counter">
+                        <button class="quantity-minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-plus">+</button>
+                    </div>
+
+                    <button class="buy-button">Купить билет</button>
+
+                    <div class="event-details">
+                        <span>23.04</span>
+                        <span>19:00</span>
+                    </div>
+                    <p>Castlecore, музыка: Boris Merzzbow, Xiu Xiu</p>
+                </div>
+            </div>
+        </div>
+            <div id="event-popup-3" class="event-popup">
+                <div class="popup-content">
+                    <span class="popup-close" id="closeEventPopup3">×</span>
+
+                    <div class="popup-image-container">
+                        <div class="image-gradient"></div>
+                        <img src="https://i.pinimg.com/736x/2a/3b/e4/2a3be4f246e069af88efafcfc2190182.jpg" alt="Дегустация">
+                    </div>
+
+                    <div class="popup-info">
+                        <h2>ДЕГУСТАЦИЯ</h2>
+                        
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Телефон">
+
+                        <div class="quantity-counter">
+                            <button class="quantity-minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-plus">+</button>
+                        </div>
+
+                        <button class="buy-button">Купить билет</button>
+
+                        <div class="event-details">
+                            <span>24.04</span>
+                            <span>19:00</span>
+                        </div>
+                        <p>Винный ринг: Сицилия VS Сардиния, молодые вина Италии</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="event-popup-4" class="event-popup">
+                <div class="popup-content">
+                    <span class="popup-close" id="closeEventPopup4">×</span>
+
+                    <div class="popup-image-container">
+                        <div class="image-gradient"></div>
+                        <img src="https://i.pinimg.com/736x/e7/1d/3e/e71d3ee7b727dc18cd77b58438c93c99.jpg" alt="Диджей-сет">
+                    </div>
+
+                    <div class="popup-info">
+                        <h2>ДИДЖЕЙ-СЕТ</h2>
+
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Телефон">
+
+                        <div class="quantity-counter">
+                            <button class="quantity-minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-plus">+</button>
+                        </div>
+
+                        <button class="buy-button">Купить билет</button>
+
+                        <div class="event-details">
+                            <span>25.04</span>
+                            <span>20:00</span>
+                        </div>
+                        <p>MC Palo4ka, DJ Temnaya noch, Emoji girl</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="event-popup-5" class="event-popup">
+                <div class="popup-content">
+                    <span class="popup-close" id="closeEventPopup5">×</span>
+
+                    <div class="popup-image-container">
+                        <div class="image-gradient"></div>
+                        <img src="https://i.pinimg.com/736x/fb/4e/5c/fb4e5c4a9d40eac64668f4d89fac820b.jpg" alt="Мастер-класс">
+                    </div>
+
+                    <div class="popup-info">
+                        <h2>МАСТЕР-КЛАСС</h2>
+                        
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Телефон">
+
+                        <div class="quantity-counter">
+                            <button class="quantity-minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-plus">+</button>
+                        </div>
+
+                        <button class="buy-button">Купить билет</button>
+
+                        <div class="event-details">
+                            <span>26.04</span>
+                            <span>14:00</span>
+                        </div>
+                        <p>Мастерим обвесы на сумки из керамики!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="event-popup-6" class="event-popup">
+                <div class="popup-content">
+                    <span class="popup-close" id="closeEventPopup6">×</span>
+
+                    <div class="popup-image-container">
+                        <div class="image-gradient"></div>
+                        <img src="https://i.pinimg.com/736x/ca/55/d4/ca55d464d29a503299345fb6bf4c389d.jpg" alt="Инди Концерт">
+                    </div>
+
+                    <div class="popup-info">
+                        <h2>ИНДИ КОНЦЕРТ</h2>
+                        
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Телефон">
+
+                        <div class="quantity-counter">
+                            <button class="quantity-minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-plus">+</button>
+                        </div>
+
+                        <button class="buy-button">Купить билет</button>
+
+                        <div class="event-details">
+                            <span>27.04</span>
+                            <span>19:00</span>
+                        </div>
+                        <p>Нелюдимка: бас, синтезатор, сопротивление</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <p>AXE PORRIGE</p>
+            </div>
+            <div class="footer-column">
+                <p>8(812)346-56-56 <br>Контактный центр</p>
+                <p>8(812)987-32-18 <br>Отдел заботы о пользователях</p>
+                <p>г. Санкт-Петербург, <br>ул. Ломоносова, д.43</p>
+            </div>
+            <div class="footer-column">
+                <p>Instagram: axeporrige</p>
+                <p>Telegram: @axeporrige</p>
+                <p>ВКонтакте: axeporrige_vk</p>
+                <p>Email: axeporrige@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>с 2025 Кофейня-коворкинг AXE PORRIGE. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="events.js"></script>
+</body>
+</html>
